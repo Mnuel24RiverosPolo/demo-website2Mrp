@@ -20,7 +20,7 @@ $resultado = pg_query($con, $sql);
 		<table class="table table-striped">
 			<thead>
 				<tr>
-					<th>ID</th>
+			
 					<th>Documento</th>
 					<th>Nombre</th>
 					<th>Apellido</th>
@@ -31,7 +31,6 @@ $resultado = pg_query($con, $sql);
 			<tbody>
 				<?php while($fila = pg_fetch_assoc($resultado)) { ?>
 					<tr>
-						<td><?php echo $fila['id']; ?></td>
 						<td><?php echo $fila['documento']; ?></td>
 						<td><?php echo $fila['nombre']; ?></td>
 						<td><?php echo $fila['apellido']; ?></td>
