@@ -73,6 +73,7 @@
             </div>
             <input type="submit" class="btn btn-primary float-right" value="Registrar">
           </form>
+          <li><a href="listar.php">Lista</a></li>
         </div>
       </div>
 
